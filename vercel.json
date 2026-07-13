@@ -1,5 +1,9 @@
 {
   "redirects": [
-    { "source": "/index.html", "destination": "/", "permanent": true }
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/performance.html", "destination": "/performance", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/performance", "destination": "/performance.html" }
   ]
 }
